@@ -68,6 +68,7 @@ function startQuiz() {
 //     }
 // }
  function move() {
+    $("#myProgress").css("visibility", "visible");
   var elem = document.getElementById("myBar");   
   var width = 1;
   var id = setInterval(frame, 100);
