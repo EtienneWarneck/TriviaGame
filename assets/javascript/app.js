@@ -1,7 +1,7 @@
 
 var myArray = [
     {
-        question: "What artist made this artwork in 1912?",
+        question: "Which of these 3 famous artists made this drawing in 1912 ?",
         image: { i: "" },
         answers: {
             a: "a. Fernand Léger",
@@ -46,10 +46,10 @@ function startQuiz() {
     $("#answer2").html("<h4>" + myArray[0].answers.b + "</h4>");
     $("#answer3").html("<h4>" + myArray[0].answers.c + "</h4>");
     $("#image").html("<h4>" + myArray[0].image.i + "<img src='assets/images/img_01.png' width='400px'>");
-
+    $(".answ").css("visibility", "visible");
 };
 
-function move() {
+function move() {  //FOUND CODE
     $("#myProgress").css("visibility", "visible");
     var elem = $("#myBar");
     var width = 0;
@@ -63,6 +63,30 @@ function move() {
         }
     }
 }
+
+$(document).ready(function () {
+
+    // var answers; MY CODE
+    // for (i = 0; i < answers.length; i++) {
+    //     $("answers[i].i").mouseover(function () {
+    //         $("answers[i].i").css("background-color", "yellow");
+    //     });
+    // }
+
+    $('li').css('background-color', 'white').hover(function() {
+        $(this).css('background-color', 'yellow');
+      },
+      function() {
+        $(this).css('background-color', 'white');
+      });
+
+
+    // $("p").mouseout(function(){
+    //   $("p").css("background-color", "lightgray");
+    // });
+});
+
+
 
 function countDown() {
 };

@@ -39,3 +39,18 @@
         width: 50%;
         height: 50%;
       }
+      ul {
+        padding-inline-start: 0px;
+        margin: 0 auto;
+        display: flex;
+        /* border: 1px solid red;  */
+      }
+      
+      li {
+        visibility: hidden;
+        list-style-type: none;
+        margin: 0 auto;
+        width: 400px;
+        height: 50%;
+        border: 1px solid #4CAF50; 
+    }
