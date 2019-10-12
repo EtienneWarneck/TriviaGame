@@ -1,4 +1,41 @@
 
 * {
     font-family: 'Rubik', sans-serif;
-  }
+    text-align: center;
+      }
+  
+      #title{
+        font-size: 50px;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+        /* border: 1px solid red; */
+        padding: 0px;
+      }
+
+      button {
+        width: 200px;
+        height: 40px;;
+      }
+
+      #myProgress {
+        visibility: hidden;
+        margin: 0 auto;
+        width: 500px;
+        height: 30px;
+        /* position: relative; */
+        background-color: #ddd;
+      }
+      
+      #myBar {
+        background-color: #4CAF50;
+        width: 10px;
+        height: 30px;
+        position: absolute;
+      }
+
+      #image {
+        margin: 0 auto;
+        width: 50%;
+        height: 50%;
+      }
