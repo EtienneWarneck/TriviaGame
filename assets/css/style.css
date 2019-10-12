@@ -19,11 +19,11 @@
       }
 
       #myProgress {
-        visibility: hidden;
+        /* visibility: hidden; */
         margin: 0 auto;
-        width: 500px;
+        width: 50%;
         height: 30px;
-        /* position: relative; */
+        position: relative;
         background-color: #ddd;
       }
       
