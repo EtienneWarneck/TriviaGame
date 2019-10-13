@@ -1,56 +1,64 @@
-
 * {
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-      }
-  
-      #title{
-        font-size: 50px;
-        text-align: center;
-        margin: auto;
-        width: 70%;
-        /* border: 1px solid red; */
-        padding: 0px;
-      }
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+}
 
-      button {
-        width: 200px;
-        height: 40px;;
-      }
+#title {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  /* border: 1px solid red; */
+  padding: 0px;
+}
 
-      #myProgress {
-        visibility: hidden;
-        margin: 0 auto;
-        width: 50%;
-        height: 30px;
-        position: relative;
-        background-color: #ddd;
-      }
-      
-      #myBar {
-        background-color: #4CAF50;
-        width: 10px;
-        height: 30px;
-        position: absolute;
-      }
+#buttonStart {
+  width: 200px;
+  height: 40px;
+  ;
+}
 
-      #image {
-        margin: 0 auto;
-        width: 50%;
-        height: 50%;
-      }
-      ul {
-        padding-inline-start: 0px;
-        margin: 0 auto;
-        display: flex;
-        /* border: 1px solid red;  */
-      }
-      
-      li {
-        visibility: hidden;
-        list-style-type: none;
-        margin: 0 auto;
-        width: 400px;
-        height: 50%;
-        border: 1px solid #4CAF50; 
-    }
+#buttonContinue {
+  visibility: hidden;
+  width: 200px;
+  height: 40px;
+  ;
+}
+
+#myProgress {
+  visibility: hidden;
+  margin: 0 auto;
+  width: 50%;
+  height: 30px;
+  position: relative;
+  background-color: #ddd;
+}
+
+#myBar {
+  background-color: #4CAF50;
+  width: 10px;
+  height: 30px;
+  position: absolute;
+}
+
+#image {
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+}
+
+ul {
+  padding-inline-start: 0px;
+  margin: 0 auto;
+  display: flex;
+  /* border: 1px solid red;  */
+}
+
+li {
+  visibility: hidden;
+  list-style-type: none;
+  margin: 0 auto;
+  width: 400px;
+  height: 50%;
+  border: 1px solid #4CAF50;
+}
